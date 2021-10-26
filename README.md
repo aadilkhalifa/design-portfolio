@@ -1,2 +1,2 @@
 # Personal Design Portfolio Web App
-[Website link](https://github.com/aadilkhalifa/design-portfolio)
+[Website link](https://aadilkhalifa.github.io/design-portfolio/)
