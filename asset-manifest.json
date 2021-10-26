@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/design-portfolio/static/css/main.0d8d3548.chunk.css",
-    "main.js": "/design-portfolio/static/js/main.f7de20d6.chunk.js",
-    "main.js.map": "/design-portfolio/static/js/main.f7de20d6.chunk.js.map",
+    "main.js": "/design-portfolio/static/js/main.397a2c11.chunk.js",
+    "main.js.map": "/design-portfolio/static/js/main.397a2c11.chunk.js.map",
     "runtime-main.js": "/design-portfolio/static/js/runtime-main.9310cb1e.js",
     "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.9310cb1e.js.map",
     "static/js/2.7c6846cb.chunk.js": "/design-portfolio/static/js/2.7c6846cb.chunk.js",
@@ -22,6 +22,7 @@
     "static/media/18.4f10c0e7.png": "/design-portfolio/static/media/18.4f10c0e7.png",
     "static/media/19.4922f124.png": "/design-portfolio/static/media/19.4922f124.png",
     "static/media/2.ec48aef2.png": "/design-portfolio/static/media/2.ec48aef2.png",
+    "static/media/20.501db63d.png": "/design-portfolio/static/media/20.501db63d.png",
     "static/media/21.52a33491.png": "/design-portfolio/static/media/21.52a33491.png",
     "static/media/23.6ae6e80f.png": "/design-portfolio/static/media/23.6ae6e80f.png",
     "static/media/24.ec78257b.png": "/design-portfolio/static/media/24.ec78257b.png",
@@ -39,6 +40,6 @@
     "static/js/runtime-main.9310cb1e.js",
     "static/js/2.7c6846cb.chunk.js",
     "static/css/main.0d8d3548.chunk.css",
-    "static/js/main.f7de20d6.chunk.js"
+    "static/js/main.397a2c11.chunk.js"
   ]
 }
