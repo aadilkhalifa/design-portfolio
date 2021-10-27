@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.bce45821.chunk.css",
-    "main.js": "/design-portfolio/static/js/main.e2258466.chunk.js",
-    "main.js.map": "/design-portfolio/static/js/main.e2258466.chunk.js.map",
-    "runtime-main.js": "/design-portfolio/static/js/runtime-main.4d637936.js",
-    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.4d637936.js.map",
-    "static/js/2.7c6846cb.chunk.js": "/design-portfolio/static/js/2.7c6846cb.chunk.js",
-    "static/js/2.7c6846cb.chunk.js.map": "/design-portfolio/static/js/2.7c6846cb.chunk.js.map",
-    "static/js/3.a896bc8f.chunk.js": "/design-portfolio/static/js/3.a896bc8f.chunk.js",
-    "static/js/3.a896bc8f.chunk.js.map": "/design-portfolio/static/js/3.a896bc8f.chunk.js.map",
+    "main.css": "/design-portfolio/static/css/main.2e75b44f.chunk.css",
+    "main.js": "/design-portfolio/static/js/main.2265d5d2.chunk.js",
+    "main.js.map": "/design-portfolio/static/js/main.2265d5d2.chunk.js.map",
+    "runtime-main.js": "/design-portfolio/static/js/runtime-main.81fbf60f.js",
+    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.81fbf60f.js.map",
+    "static/js/2.4bc08b67.chunk.js": "/design-portfolio/static/js/2.4bc08b67.chunk.js",
+    "static/js/2.4bc08b67.chunk.js.map": "/design-portfolio/static/js/2.4bc08b67.chunk.js.map",
+    "static/js/3.70e60745.chunk.js": "/design-portfolio/static/js/3.70e60745.chunk.js",
+    "static/js/3.70e60745.chunk.js.map": "/design-portfolio/static/js/3.70e60745.chunk.js.map",
     "index.html": "/design-portfolio/index.html",
-    "static/css/main.bce45821.chunk.css.map": "/design-portfolio/static/css/main.bce45821.chunk.css.map",
-    "static/js/2.7c6846cb.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.7c6846cb.chunk.js.LICENSE.txt",
+    "static/css/main.2e75b44f.chunk.css.map": "/design-portfolio/static/css/main.2e75b44f.chunk.css.map",
+    "static/js/2.4bc08b67.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.4bc08b67.chunk.js.LICENSE.txt",
     "static/media/10.41a88151.png": "/design-portfolio/static/media/10.41a88151.png",
     "static/media/11.e6ca91b4.png": "/design-portfolio/static/media/11.e6ca91b4.png",
     "static/media/12.36559640.png": "/design-portfolio/static/media/12.36559640.png",
@@ -37,9 +37,9 @@
     "static/media/9.74a7835c.png": "/design-portfolio/static/media/9.74a7835c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d637936.js",
-    "static/js/2.7c6846cb.chunk.js",
-    "static/css/main.bce45821.chunk.css",
-    "static/js/main.e2258466.chunk.js"
+    "static/js/runtime-main.81fbf60f.js",
+    "static/js/2.4bc08b67.chunk.js",
+    "static/css/main.2e75b44f.chunk.css",
+    "static/js/main.2265d5d2.chunk.js"
   ]
 }
