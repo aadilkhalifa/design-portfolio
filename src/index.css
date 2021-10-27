@@ -1,28 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
+  background-color: #232323;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
-.title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 70px;
-  font-weight: 800;
-  text-align: center;
-  margin: 0;
-  margin-top: 40px;
+.TitleDiv {
+  margin-left: 100px;
+  padding-top: 150px;
 }
-.subtitle {
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px;
-  text-align: center;
+
+.title1 {
+  color: #888888;
+  font-size: 100px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 60%;
+}
+.title2 {
+  color: white;
+  font-size: 120px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 80%;
+  margin-top: 20px;
+}
+.title3 {
+  color: #888888;
+  font-size: 50px;
   font-weight: 200;
   margin: 0;
-  padding: 0;
-  line-height: 50%;
+  line-height: 80%;
+  margin-top: 20px;
+}
+
+.subheading {
+  color: #F26B4E;
+  font-weight: 800;
+  text-align: center;
+  font-size: 40px;
+}
+
+.desc {
+  margin: 40px 20%;
+  text-align: center;
+}
+
+.NavBar {
+  height: 50px;
+  width: 40%;
+  padding: 0 30%;
+  position: fixed;
+  background-color: #232323
+}
+.NavBarList {
+  height: 100%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.NavBarList a {
+  color: white;
+  width: 5%;
+  font-weight: 500;
+  font-size: small;
+  text-decoration: none;
+  
+}
+.NavBarListItem:hover{
+  color: #F26B4E;
+  font-weight: 800;
+}
+.SectionDiv {
+  margin-top: 150px;
+  height: 100vh;
+  /* background-color: lightblue; */
+  display: flex;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.PortfolioDiv {
+  padding-top: 50px;
+}
+
+.App {
+  scroll-snap-type: y mandatory;
 }

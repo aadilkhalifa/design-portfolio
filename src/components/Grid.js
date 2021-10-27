@@ -48,123 +48,123 @@ function Grid() {
         <div style={{ display: 'flex', flexWrap: 'wrap', margin: 0, marginTop: 100}}>
             <img src={image1} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image2} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image3} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image4} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image5} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image6} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image7} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image8} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image9} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image10} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image11} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image12} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image13} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image14} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image15} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image16} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image17} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image18} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image19} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image20} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image21} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image22} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image23} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image24} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image25} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image26} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image27} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image28} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image29} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             <img src={image30} alt="" style={{
                         height: width/3, 
-                        width: (width-18)/3,
+                        width: (width)/3,
                     }}/>
             {/* {images.map(function(i){
                 return <img key={i} 

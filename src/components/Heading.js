@@ -2,9 +2,11 @@ import React from 'react'
 
 function Heading() {
     return (
-        <div>
-            <h1 className='title'>Aadil Khalifa</h1>
-            <h2 className='subtitle'>Designer</h2>
+        <div className="TitleDiv" id="home">
+            <h2 className='title1'>I'm</h2>
+            <h1 className='title2'>Aadil</h1>
+            <h1 className='title2'>Khalifa.</h1>
+            <h3 className='title3'>This is my design portfolio</h3>
         </div>
     )
 }

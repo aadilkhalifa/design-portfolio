@@ -1,12 +1,18 @@
 import Heading from "./components/Heading";
-import Grid from "./components/Grid";
+import NavBar from "./components/NavBar";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
+    <div className="App">
+      <NavBar/>
       <Heading/>
-      <Grid/>
-    </>
+      <About/>
+      <Portfolio/>
+      <Contact/>
+    </div>
   );
 }
 
