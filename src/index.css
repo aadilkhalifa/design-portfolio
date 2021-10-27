@@ -93,7 +93,9 @@ body::-webkit-scrollbar {
   /* background-color: lightblue; */
   display: flex;
   align-items: center;
+  flex-direction: column;
   scroll-snap-align: start;
+  justify-content: center;
 }
 .PortfolioDiv {
   padding-top: 50px;
@@ -101,4 +103,9 @@ body::-webkit-scrollbar {
 
 .App {
   scroll-snap-type: y mandatory;
+}
+
+.ContactInnerDiv a {
+  /* background-color: blueviolet; */
+  margin: 0 10px;
 }

@@ -31,9 +31,6 @@ import image28 from '../images/28.png'
 import image29 from '../images/29.png'
 import image30 from '../images/30.png'
 
-const imageHeight = Math.round(window.innerWidth * 1 / 3)-6;
-const imageWidth = imageHeight;
-
 function Grid() {
     const { height, width } = useWindowDimensions();
     var len = 30;

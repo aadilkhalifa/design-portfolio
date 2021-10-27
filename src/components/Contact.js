@@ -1,21 +1,27 @@
+import { FaGithub } from "react-icons/fa"
+import { FaBehanceSquare } from "react-icons/fa"
+import { FaInstagramSquare } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
 
 function Contact() {
     return (
-        <div className="SectionDiv" id="contact">
-            <div >
+        <div id="contact">
+            <div className="SectionDiv" >
                 <h1 className="subheading">
                     CONTACT ME
                 </h1>
-                <p className="desc">
-                    Hey guys!
-                    I'm an engineering student passionate about design.
-                    I'm an engineering student passionate about design.
-                    I'm an engineering student passionate about design.
-                    I'm an engineering student passionate about design.
-                    I'm an engineering student passionate about design.
-                    I'm an engineering student passionate about design.
-                    I'm an engineering student passionate about design.
-                </p>
+                <div className="ContactInnerDiv">
+                <a href="https://www.instagram.com/dildesigns/" style={{ color: "white" }} target="_blank">
+                <FaInstagramSquare size={30} />
+                </a>
+                <a href="https://www.behance.net/aadilkhalifa" style={{ color: "white" }} target="_blank">
+                <FaBehanceSquare size={30} />
+                </a>
+                <a href="https://www.linkedin.com/in/aadil-khalifa-7361031b6" style={{ color: "white" }} target="_blank">
+                <FaLinkedin size={30} />
+                </a>
+
+                </div>
             </div>
         </div>
     )
