@@ -1,4 +1,5 @@
 import React from 'react'
+import "./grid.css"
 import useWindowDimensions from './useWindowDimensions';
 import image1 from '../images/1.png'
 import image2 from '../images/2.png'
@@ -43,7 +44,220 @@ function Grid() {
     return (
         <>
         <div style={{ display: 'flex', flexWrap: 'wrap', margin: 0, marginTop: 100}}>
-            <img src={image1} alt="" style={{
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image1} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">ADIDAS</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image2} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">ZARA</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image3} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">DUBAI</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image4} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">BARCELONA</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image5} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">HAPPY</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image6} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">GOA</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image7} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">NYC</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image8} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">GOOGLE</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image9} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">APPLE</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image10} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">HONG KONG</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image11} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">KITKAT</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image12} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">LONDON</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image13} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">LOS ANGELES</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image14} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">ROME</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image15} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">MANGO</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image16} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">MIAMI</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image17} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">MUMBAI</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image18} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">MUMBAI</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image19} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">NIKE</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image20} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">NIKE</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image21} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">GOOGLE</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image22} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">PARIS</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image23} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">SINGAPORE</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image24} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">PORTO</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image25} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">QATAR</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image26} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">WHY SO SERIOUS</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image27} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">SAD</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image28} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">SHIT HAPPENS</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image29} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">AMAZON</h3>
+            </div>
+            <div className="item" style={{
+                        height: width/3, 
+                        width: (width)/3,
+                    }}>
+                <img src={image30} alt="" className="ImgItem" />
+                <h3 className="ImgTitle">UPS</h3>
+            </div>
+            
+
+
+            {/* <img src={image1} alt="" style={{
                         height: width/3, 
                         width: (width)/3,
                     }}/>
@@ -162,7 +376,10 @@ function Grid() {
             <img src={image30} alt="" style={{
                         height: width/3, 
                         width: (width)/3,
-                    }}/>
+                    }}/> */}
+
+
+
             {/* {images.map(function(i){
                 return <img key={i} 
                     src={'../images/' + i + '.png'}  

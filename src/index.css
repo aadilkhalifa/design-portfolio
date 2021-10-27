@@ -65,7 +65,9 @@ body::-webkit-scrollbar {
   width: 40%;
   padding: 0 30%;
   position: fixed;
-  background-color: #232323
+  background-color: #232323;
+  z-index: 2;
+
 }
 .NavBarList {
   height: 100%;
@@ -85,7 +87,7 @@ body::-webkit-scrollbar {
 }
 .NavBarListItem:hover{
   color: #F26B4E;
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 .SectionDiv {
   margin-top: 150px;
