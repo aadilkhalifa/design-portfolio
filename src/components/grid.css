@@ -25,4 +25,11 @@ img:hover {
     position: absolute;
     pointer-events: none;
   }
+.newImg {
+  width: 100%;
+  height: 100%;
+}
+.grid {
+  margin: 40px 0;
+}
   
