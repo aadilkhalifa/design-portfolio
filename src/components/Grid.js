@@ -1,6 +1,6 @@
-import React from 'react'
-import "./grid.css"
-import useWindowDimensions from './useWindowDimensions';
+import React, {useState} from 'react'
+import "./grid.scss"
+import Modal from './Modal'
 import image1 from '../images/1.png'
 import image2 from '../images/2.png'
 import image3 from '../images/3.png'
@@ -33,15 +33,15 @@ import image29 from '../images/29.png'
 import image30 from '../images/30.png'
 
 function Grid() {
-    const { height, width } = useWindowDimensions();
+
+
+    const [showModal, setModal] = useState(false)
+    const [index, setIndex] = useState(0)
+    
     var len = 30;
     var images = [];
     var labels = [];
-    // for (var i = 1; i <= len; i++) {
-    //     images.push(
-    //         ["image1"]
-    //     );
-    // }
+    
     images.push(image1);
     images.push(image2);
     images.push(image3);
@@ -103,34 +103,45 @@ function Grid() {
     labels.push("AMAZON");
     labels.push("UPS");
 
+    
+    function toggleModal(i){
+        setModal(!showModal);
+        setIndex(i);
+    }
+
+
     var cols = [];
 
     for (let i = 0; i < len;) {
+
         cols.push(
         <div style={{display: 'flex', alignItems: 'stretch'}}>
-            <div className="item" style={{backgroundColor: 'black', flexGrow: 1}}>
+            <div className="item" onClick={()=>{toggleModal(i-3)}} style={{backgroundColor: 'black', flexGrow: 1}}>
+                <img src={images[i]} className="newImg ImgItem"  />
+                <h3 className="ImgTitle">{labels[i++]}</h3>
+            </div>
+            <div className="item" onClick={()=>{toggleModal(i-2)}} style={{backgroundColor: 'black', flexGrow: 1}}>
                 <img src={images[i]} className="newImg ImgItem" />
                 <h3 className="ImgTitle">{labels[i++]}</h3>
             </div>
-            <div className="item" style={{backgroundColor: 'black', flexGrow: 1}}>
-                <img src={images[i]} className="newImg ImgItem" />
-                <h3 className="ImgTitle">{labels[i++]}</h3>
-            </div>
-            <div className="item" style={{backgroundColor: 'black', flexGrow: 1}}>
+            <div className="item" onClick={()=>{toggleModal(i-1)}} style={{backgroundColor: 'black', flexGrow: 1}}>
                 <img src={images[i]} className="newImg ImgItem" />
                 <h3 className="ImgTitle">{labels[i++]}</h3>
             </div>
         </div>
         );
+
+
         
     }
 
-
-
     return (
+        <>
         <div className="grid">
-         {cols}
+            {cols}
         </div>
+        <Modal showModal={showModal} setModal={setModal} index={index} />
+        </>
     )
 }
 
