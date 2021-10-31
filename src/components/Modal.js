@@ -51,6 +51,11 @@ function Modal({showModal, setModal, index}) {
         }
     }
 
+    useEffect(() => {
+        showModal && (document.body.style.overflow = 'hidden');
+        !showModal && (document.body.style.overflow = 'unset');
+     }, [showModal ]);
+
     var images = [];
     
     images.push(image1);
