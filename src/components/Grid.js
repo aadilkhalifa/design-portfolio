@@ -1,4 +1,7 @@
 import React, {useState} from 'react'
+import 'aos/dist/aos.css'; 
+import Aos from "aos";
+import { useEffect } from "react";
 import "./grid.scss"
 import Modal from './Modal'
 import image1 from '../images/1.png'
@@ -37,6 +40,12 @@ function Grid() {
 
     const [showModal, setModal] = useState(false)
     const [index, setIndex] = useState(0)
+
+    useEffect(() => {
+        Aos.init({
+            duration: 300,
+        });
+    }, []) 
     
     var len = 30;
     var images = [];
@@ -107,7 +116,7 @@ function Grid() {
     function toggleModal(i){
         setModal(!showModal);
         setIndex(i);
-    }
+    } 
 
 
     var cols = [];
@@ -115,7 +124,7 @@ function Grid() {
     for (let i = 0; i < len;) {
 
         cols.push(
-        <div style={{display: 'flex', alignItems: 'stretch'}}>
+        <div key={i} style={{display: 'flex', alignItems: 'stretch'}}>
             <div className="item" onClick={()=>{toggleModal(i-3)}} style={{backgroundColor: 'black', flexGrow: 1}}>
                 <img src={images[i]} className="newImg ImgItem"  />
                 <h3 className="ImgTitle">{labels[i++]}</h3>
