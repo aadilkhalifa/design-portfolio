@@ -20,7 +20,7 @@ function App() {
 
   return (
     <ParallaxProvider>
-      <div className="App">
+      <div className="App"> 
         <NavBar/>
         <Heading/>
         <About/>

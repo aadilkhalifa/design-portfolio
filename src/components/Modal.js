@@ -1,5 +1,6 @@
 import './Modal.scss';
 import {useSpring, animated} from 'react-spring'
+import { useTransition} from 'react-spring'
 import image1 from '../images/1.png'
 import image2 from '../images/2.png'
 import image3 from '../images/3.png'
@@ -37,13 +38,29 @@ function Modal({showModal, setModal, index}) {
 
     const modalRef = useRef(); 
 
-    const animation = useSpring({
-        config: {
-            duration: 250
-        },
-        opactiy: showModal ? 1 : 0,
-        transform: showModal ? `translateY(0%)` : `translateY(100%)`
-    })
+
+    // function Mount() {
+    // const transitions = useTransition(showModal, {
+    //     from: { opacity: 0 },
+    //     enter: { opacity: 1 },
+    //     leave: { opacity: 0 },
+    //     reverse: showModal,
+    //     // delay: 200,
+    //     delay: 200,
+    //     // config: config.molasses,
+    //     // onRest: () => setModal(!showModal),
+    //   })
+    //   return transitions(
+    //     (styles, item) => item && <animated.div style={styles}>
+    //         <div className="ModalBackground" ref={modalRef} onClick={closeModal}>
+    //             <div className="ModalWrapper" >
+    //                 <img src={images[index]} className="ModalImg" alt="" />
+    //             </div>
+    //         </div>
+    //     </animated.div>
+    //   )
+    // }
+  
 
     const closeModal = e=>{
         if(modalRef.current === e.target ){
@@ -89,17 +106,17 @@ function Modal({showModal, setModal, index}) {
     images.push(image29);
     images.push(image30);
 
+
     return (
-        <>
-            {showModal ? (
-            <div className="ModalBackground" ref={modalRef} onClick={closeModal}>
-                {/* <animated className="div" style={animation}> */}
-                    <div className="ModalWrapper" >
-                        <img src={images[index]} className="ModalImg" alt="" />
-                    </div>
-                {/* </animated> */}
-            </div>) : null}
-        </>
+
+            showModal ? (
+                <div className="ModalBackground fade-in" ref={modalRef} onClick={closeModal}>
+                        <div className="ModalWrapper" >
+                            <img src={images[index]} className="ModalImg" alt="" />
+                        </div>
+                </div>) : null
+            
+        
     )
 }
 

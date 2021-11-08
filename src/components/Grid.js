@@ -81,25 +81,25 @@ function Grid() {
     images.push(image28);
     images.push(image29);
     images.push(image30);
-    labels.push("ADIDAS");
+    labels.push("CONFUSE");
     labels.push("ZARA");
     labels.push("DUBAI")
-    labels.push("BARCELONA");
     labels.push("HAPPY");
+    labels.push("HOPE");
     labels.push("GOA");
     labels.push("NYC");
     labels.push("GOOGLE");
     labels.push("APPLE");
     labels.push("HONG KONG");
     labels.push("KITKAT");
-    labels.push("LONDON");
+    labels.push("NIKE");
     labels.push("LOS ANGELES");
     labels.push("ROME");
-    labels.push("MANGO");
+    labels.push("BARCELONA");
     labels.push("MIAMI");
     labels.push("MUMBAI");
     labels.push("MUMBAI");
-    labels.push("NYC");
+    labels.push("ADIDAS");
     labels.push("NIKE");
     labels.push("GOOGLE");
     labels.push("PARIS");
@@ -107,10 +107,10 @@ function Grid() {
     labels.push("PORTO");
     labels.push("QATAR");
     labels.push("WHY SO SERIOUS?");
-    labels.push("SAD");
-    labels.push("SHIT HAPPENS");
     labels.push("AMAZON");
-    labels.push("UPS");
+    labels.push("SHIT HAPPENS");
+    labels.push("SAD");
+    labels.push("LONDON");
 
     
     function toggleModal(i){

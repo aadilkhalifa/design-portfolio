@@ -5,18 +5,23 @@ import 'aos/dist/aos.css';
 import Aos from "aos";
 import { useEffect } from "react";
 import { Parallax } from 'react-scroll-parallax';
+import { render } from "react-dom";
+import { Parallax as Parallax2, Background } from "react-parallax";
 import H1 from '../images/vectors/H1.svg'
 import H2 from '../images/vectors/H2.svg'
 import O from '../images/vectors/O.svg'
 import E2 from '../images/vectors/E2.svg'
+import bg1 from '../images/backgrounds/background1.png'
 
 function Heading() {
 
-    useEffect(() => {
-        Aos.init({
-            duration: 2000,
-        });
-    }, [])
+    // useEffect(() => {
+    //     Aos.init({
+    //         duration: 2000,
+    //     });
+    // }, [])
+
+
 
     return (
         <>
@@ -126,17 +131,42 @@ function Heading() {
                     </div>
 
 
-            <div className="TitleDiv" id="home" data-aos="fade">
-                
 
-                <h2 className='title1' >I'm</h2>
-                <h1 className='title2' >Aadil</h1>
-                <h1 className='title2' >Khalifa.</h1>
-                <h3 className='title3' >This is my design portfolio</h3>
+                    {/* <Parallax2 bgImage={bg1} strength={100}> */}
+                        <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
+                            <div className="TitleDiv" 
+                                id="home" 
+                                // data-aos="fade" 
+                                // style={insideStyles}
+                                >
+                        
+
+                                <h2 className='title1' >I'm</h2>
+                                <h1 className='title2' >Aadil</h1>
+                                <h1 className='title2' >Khalifa.</h1>
+                                <h3 className='title3' >This is my design portfolio</h3>
+                                
+                            </div>
+                        </div>
+                    {/* </Parallax2> */}
+
                 
-            </div>
         </>
     )
 }
+// const insideStyles = {
+//     // background: "white",
+//     padding: 20,
+//     position: "absolute",
+//     top: "50%",
+//     left: "50%",
+//     transform: "translate(-50%,-50%)",
+//     display: "flex",
+//     flexDirection: "column",
+//     justifyContent: "start",
+//     alignItems: "start",
+//     width: "100%",
+//     paddingLeft: "120px",
+//   };
 
 export default Heading
