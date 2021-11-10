@@ -27,37 +27,30 @@ function Heading() {
         <>
             
 
-            <div className="testDiv">
+            {/* <div className="testDiv">
 
                 <div className="textDivInside">
                     
-                    {/* <Parallax  x={[-2000, 1000]} >
-                        <div style={{ backgroundColor: "white", height: 5, width: 100, borderRadius: 10 }}></div>
-                    </Parallax> */}
                     <Parallax  y={[100, -100]} >
-                        {/* <div style={{ backgroundColor: "white", height: 100, width: 100, borderRadius: 10 }}></div> */}
                         <p className="title2">H</p>
                     </Parallax>
                     <Parallax  y={[200, -200]} >
-                        {/* <div style={{ backgroundColor: "white", height: 100, width: 100, borderRadius: 10 }}></div> */}
                         <p className="title2">E</p>
                     </Parallax>
                     <Parallax  y={[300, -300]} >
-                        {/* <div style={{ backgroundColor: "white", height: 100, width: 100, borderRadius: 10 }}></div> */}
                         <p className="title2">L</p>
                     </Parallax>
                     <Parallax  y={[400, -400]} >
-                        {/* <div style={{ backgroundColor: "white", height: 100, width: 100, borderRadius: 10 }}></div> */}
                         <p className="title2">L</p>
                     </Parallax>
                     <Parallax  y={[500, -500]} >
-                        {/* <div style={{ backgroundColor: "white", height: 100, width: 100, borderRadius: 10 }}></div> */}
                         <p className="title2">O</p>
                     </Parallax>
                     
-                    </div>
-                
                 </div>
+                
+            </div> */}
+ 
 
                 <div className="testDiv">
 
