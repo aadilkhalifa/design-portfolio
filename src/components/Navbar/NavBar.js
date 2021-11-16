@@ -1,3 +1,4 @@
+import './NavBar.scss'
 import React from 'react'
 
 function NavBar() {

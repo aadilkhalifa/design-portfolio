@@ -1,4 +1,5 @@
-import Grid from "./Portfolio"
+import './Portfolio.scss'
+import Grid from "./Grid"
 
 function Portfolio() {
     return (

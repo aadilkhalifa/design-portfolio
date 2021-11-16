@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import Aos from "aos";
 import { useEffect } from "react";
 import "./grid.scss"
-import Modal from '../Modal'
+import Modal from './Modal'
 import image1 from '../../images/1.png'
 import image2 from '../../images/2.png'
 import image3 from '../../images/3.png'

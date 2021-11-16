@@ -1,8 +1,8 @@
-import Heading from "./components/Heading";
-import NavBar from "./components/NavBar";
-import About from "./components/About";
+import Heading from "./components/Heading/Heading";
+import NavBar from "./components/Navbar/NavBar";
+import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import { useEffect, useState } from "react";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
