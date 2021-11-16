@@ -1,4 +1,4 @@
-import Grid from "./Grid"
+import Grid from "./Portfolio"
 
 function Portfolio() {
     return (

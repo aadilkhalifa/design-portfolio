@@ -1,7 +1,7 @@
 import Heading from "./components/Heading";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact";
 import { useEffect, useState } from "react";
 import { ParallaxProvider } from 'react-scroll-parallax';
