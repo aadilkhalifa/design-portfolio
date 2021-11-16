@@ -1,3 +1,4 @@
+import './Portfolio.scss'
 import Grid from "./Grid"
 
 function Portfolio() {

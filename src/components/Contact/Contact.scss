@@ -1,0 +1,13 @@
+@import "../../global.scss";
+
+.ContactInnerDiv a {
+    /* background-color: blueviolet; */
+    margin: 0 10px;
+  }
+
+.hoverEffect{
+    transition: .3s;
+}
+.hoverEffect:hover{
+    color: $accentColor;
+}

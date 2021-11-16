@@ -4,36 +4,36 @@ import Aos from "aos";
 import { useEffect } from "react";
 import "./grid.scss"
 import Modal from './Modal'
-import image1 from '../images/1.png'
-import image2 from '../images/2.png'
-import image3 from '../images/3.png'
-import image4 from '../images/4.png'
-import image5 from '../images/5.png'
-import image6 from '../images/6.png'
-import image7 from '../images/7.png'
-import image8 from '../images/8.png'
-import image9 from '../images/9.png'
-import image10 from '../images/10.png'
-import image11 from '../images/11.png'
-import image12 from '../images/12.png'
-import image13 from '../images/13.png'
-import image14 from '../images/14.png'
-import image15 from '../images/15.png'
-import image16 from '../images/16.png'
-import image17 from '../images/17.png'
-import image18 from '../images/18.png'
-import image19 from '../images/19.png'
-import image20 from '../images/20.png'
-import image21 from '../images/21.png'
-import image22 from '../images/22.png'
-import image23 from '../images/23.png'
-import image24 from '../images/24.png'
-import image25 from '../images/25.png'
-import image26 from '../images/26.png'
-import image27 from '../images/27.png'
-import image28 from '../images/28.png'
-import image29 from '../images/29.png'
-import image30 from '../images/30.png'
+import image1 from '../../images/1.png'
+import image2 from '../../images/2.png'
+import image3 from '../../images/3.png'
+import image4 from '../../images/4.png'
+import image5 from '../../images/5.png'
+import image6 from '../../images/6.png'
+import image7 from '../../images/7.png'
+import image8 from '../../images/8.png'
+import image9 from '../../images/9.png'
+import image10 from '../../images/10.png'
+import image11 from '../../images/11.png'
+import image12 from '../../images/12.png'
+import image13 from '../../images/13.png'
+import image14 from '../../images/14.png'
+import image15 from '../../images/15.png'
+import image16 from '../../images/16.png'
+import image17 from '../../images/17.png'
+import image18 from '../../images/18.png'
+import image19 from '../../images/19.png'
+import image20 from '../../images/20.png'
+import image21 from '../../images/21.png'
+import image22 from '../../images/22.png'
+import image23 from '../../images/23.png'
+import image24 from '../../images/24.png'
+import image25 from '../../images/25.png'
+import image26 from '../../images/26.png'
+import image27 from '../../images/27.png'
+import image28 from '../../images/28.png'
+import image29 from '../../images/29.png'
+import image30 from '../../images/30.png'
 
 function Grid() {
 
@@ -118,38 +118,27 @@ function Grid() {
         setIndex(i);
     } 
 
+    var items = [];
 
-    var cols = [];
+    var tallItems = [0, 5, 9, 14, 18, 23];
+    for (let i = 0; i < len; i++) {
 
-    for (let i = 0; i < len;) {
-
-        cols.push(
-        <div key={i} style={{display: 'flex', alignItems: 'stretch'}}>
-            <div className="item" onClick={()=>{toggleModal(i-3)}} style={{backgroundColor: 'black', flexGrow: 1}}>
-                <img src={images[i]} className="newImg ImgItem"  />
-                <h3 className="ImgTitle">{labels[i++]}</h3>
-            </div>
-            <div className="item" onClick={()=>{toggleModal(i-2)}} style={{backgroundColor: 'black', flexGrow: 1}}>
+        items.push(
+            <div className={`one ${tallItems.includes(i) ? "one-tall" : ""}`} onClick={()=>{toggleModal(i)}}>
                 <img src={images[i]} className="newImg ImgItem" />
-                <h3 className="ImgTitle">{labels[i++]}</h3>
+                <h3 className="ImgTitle">{labels[i]}</h3>
             </div>
-            <div className="item" onClick={()=>{toggleModal(i-1)}} style={{backgroundColor: 'black', flexGrow: 1}}>
-                <img src={images[i]} className="newImg ImgItem" />
-                <h3 className="ImgTitle">{labels[i++]}</h3>
-            </div>
-        </div>
         );
-
-
-        
     }
 
     return (
         <>
-        <div className="grid">
-            {cols}
-        </div>
-        <Modal showModal={showModal} setModal={setModal} index={index} />
+            <div className="grid2">
+
+                {items}
+
+            </div>
+            <Modal showModal={showModal} setModal={setModal} index={index} />
         </>
     )
 }

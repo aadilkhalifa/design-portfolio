@@ -1,17 +1,16 @@
-
+import './Heading.scss'
 import React from "react"
 // import motion from "framer-motion"
 import 'aos/dist/aos.css'; 
-import Aos from "aos";
-import { useEffect } from "react";
+// import Aos from "aos";
 import { Parallax } from 'react-scroll-parallax';
-import { render } from "react-dom";
-import { Parallax as Parallax2, Background } from "react-parallax";
-import H1 from '../images/vectors/H1.svg'
-import H2 from '../images/vectors/H2.svg'
-import O from '../images/vectors/O.svg'
-import E2 from '../images/vectors/E2.svg'
-import bg1 from '../images/backgrounds/background1.png'
+// import { render } from "react-dom";
+// import { Parallax as Parallax2, Background } from "react-parallax";
+// import H1 from '../../images/vectors/H1.svg'
+// import H2 from '../../images/vectors/H2.svg'
+import O from '../../images/vectors/O.svg'
+// import E2 from '../../images/vectors/E2.svg'
+// import bg1 from '../../images/backgrounds/background1.png'
 
 function Heading() {
 

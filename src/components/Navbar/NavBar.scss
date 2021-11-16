@@ -1,0 +1,42 @@
+@import "../../global.scss";
+
+.NavBar {
+    height: 50px;
+    width: 40%;
+    padding: 0 30%;
+    position: fixed;
+    background-color: #232323;
+    z-index: 2;
+  
+    @include mobile {
+      padding: 0 0%;
+      width: 100%;
+    }
+  
+  }
+  .NavBarList {
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    @include mobile {
+      // background-color: #888888; 
+      justify-content: space-around;
+      padding: 0;
+      width: 90%;
+    }
+  }
+  .NavBarList a {
+    color: white;
+    width: 5%;
+    font-weight: 500;
+    font-size: small;
+    text-decoration: none;
+    
+  }
+  .NavBarListItem:hover{
+    color: $accentColor;
+    /* font-weight: 800; */
+  }
